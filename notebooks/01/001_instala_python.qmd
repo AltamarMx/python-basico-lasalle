@@ -1,27 +1,52 @@
-# Instala Python 
-Hola, para iniciar este curso vamos a ver cómo instalar Python y Jupyter Notebook desde cero, descargando directamente de python.org.
+# Descargar WinPython
 
-Realizar esto nos asegura una instalación sencilla y que podemos instalar la versión que deseemos y que podemos personalizar nuestra instalación según necesitemos.
+1. Abre tu navegador y ve a la página oficial:  
+   `https://winpython.github.io/`  
+2. En **Latest Releases**, elige la versión de **WinPython 64-bit** para Python 3.x que prefieras.  
+3. Descarga el ZIP (por ejemplo: `WinPython64-3.11.5.0.zip`).
 
+# Descomprimir en una carpeta segura
 
-1. Ve [python.org](python.org), selecciona y descarga Python para instalar en tu sistema operativo.
-![](../../img/python_org.png)
+1. Crea una carpeta fija donde no se elimine por accidente, por ejemplo:  
+```
 
-1. Instala y asegurate de marcar **Add Python.exe to PATH**
-![](../../img/add_path.png)
+C:\Herramientas\WinPython
 
+```
+2. Con el Explorador de Windows, haz clic derecho sobre el ZIP → **Extraer todo…** → selecciona `C:\Herramientas\WinPython`.
 
-1. Asegurate de Python funciona en tu PowerShell ejecutando python o py   
-![](../../img/powershell_python.png)
+#  Anclar el WinPython Command Prompt
 
+1. Abre la carpeta de WinPython:  
+```
 
-1. Instala jupyter notebook, pandas y matplotlib, recuerda hacerlo con 
-python -m pip install jupyter notebook pandas matplotlib
-![](../../img/pip_install.png)
+C:\Herramientas\WinPython
 
+```
+2. Localiza el ejecutable **WinPython Command Prompt.exe**.  
+3. Haz clic derecho → **Anclar a la barra de tareas** (o **Anclar al inicio**).
 
-1. Abre una terminal nueva y prueba que funciona ejecutando
-jupyter notebook
+#  Ejecutar Jupyter Notebook en tu espacio de trabajo
 
-![](../../img/jupyter_notebook.png)
+1. Lanza el **WinPython Command Prompt** desde la barra de tareas.  
+2. Cambia al directorio de tu proyecto, por ejemplo:  
+```bat
+cd  D:\TallerPython\Basico
+```
+
+3. Inicia Jupyter Notebook con:
+
+   ```bat
+   jupyter notebook 
+   ```
+   ó
+
+   ```bat
+   jupyter notebook D:\TallerPython\Basico
+   ```
+
+4. Se abrirá tu navegador en `http://localhost:8888`, mostrando el contenido de `D:\TallerPython\Basico`.
+
+¡Liste para tu taller de Python!
+
 

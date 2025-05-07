@@ -23,7 +23,7 @@ book:
   repo-url: https://github.com/altamarmx/python-basico-lasalle/
   chapters:
     - index.qmd 
-    - datos.qmd
+    # - datos.qmd
     - part: 'Día Uno' #notebooks/semanaUno/semana1.qmd
       chapters:         
         - notebooks/01/001_instala_python.qmd
