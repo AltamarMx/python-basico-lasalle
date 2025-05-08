@@ -30,9 +30,9 @@ C:\Herramientas\WinPython
 
 1. Lanza el **WinPython Command Prompt** desde la barra de tareas.  
 2. Cambia al directorio de tu proyecto, por ejemplo:  
-```bat
-cd  D:\TallerPython\Basico
-```
+    ```bat
+    cd  D:\TallerPython\Basico
+    ```
 
 3. Inicia Jupyter Notebook con:
 

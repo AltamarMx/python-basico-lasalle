@@ -12,11 +12,25 @@ Dado que tenemos muy poco tiempo, este es el temario que intentaremos cubrir:
 ### Dia 1 (3 horas)
 
 1. Intro rápida a Jupyter notebook
+    - Instalación WinPython
+    - Manejo de Windows command prompt 
+    - Paseo por la libreta, uso básico de celdas
+    - 
 2. El espacio de trabajo
-1. Manejo de Windows command prompt
-3. Carga csv 
-4. Visualización con Matplotlib
-5. Visualización con Plotly    
+    - Definición
+    - Lanzar la libreta en tu espacio de trabajo
+    - Estrategias avanzadas en data/
+    - Narrativa computacional
+3. Narrativa computacional
+
+
+```{=html}
+<iframe class="slide-deck" src="https://altamarmx.github.io/colaborativa/#/section-5"></iframe>
+```
+
+4. Carga csv 
+5. Visualización con Matplotlib
+6. Visualización con Plotly    
 
 ### Dia 2 (3 horas)
  
